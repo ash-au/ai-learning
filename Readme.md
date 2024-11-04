@@ -16,9 +16,23 @@ Attention mechanisms are inspired by how humans focus on specific aspects of the
 
 Here are a few good articles to learn about Attention Mechanism
 
-https://h2o.ai/wiki/attention-mechanism/
-https://machinelearningmastery.com/the-attention-mechanism-from-scratch/
+- https://h2o.ai/wiki/attention-mechanism/
+- https://machinelearningmastery.com/the-attention-mechanism-from-scratch/
+
+## 2. Transformers vs RNNs vs LSTM/GRU
+Language Processing (NLP) has become synonymous with Large Language Models (LLMs) and Generative AI. These are built using Sequence Models, which is class of Machine Learning models designed for tasks that involve sequential data, where the order of elements in the input is important. Natural 
+Key sequence models are
+
+- Recurrent Neural Networks (RNNs): were the first neural networks of their kind. They are best for tasks that involve sequential dependencies, such as speech recognition and sentiment analysis. RNNs are less compute intensive and responsive when data is fed in real-time
+- Long Short-Term (LSTM) Networks: are used for tasks that requre capturing long-term dependencies, such as language modeling, speech recognition, and financial forecasting. LSTMs use a structure based on RNNs, with special `gates` that control how information is modified in a hidden cell state.
+- Gated Recurrent Units (GRUs): are another type of neural network that improve on RNNs for working with textual data. GRUs receive information indirectly as a set of hidden states passed on through the input sequcen
+- Transformer Models: These networks are state-of-the-art for many natual language processing tasks, such as document summarisation, machine translation, and sentiment analysis. Transformers use a self-attention mechanism to process sequential data in parallel, which allows them to process multiple words simultaneously.
+
+For more information
+
+- https://aiml.com/what-are-sequence-models-key-algorithms-and-their-applications/
+- https://aiml.com/compare-the-different-sequence-models-rnn-lstm-gru-and-transformers/
 
 
 
-  
+
