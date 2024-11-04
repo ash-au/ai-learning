@@ -33,6 +33,12 @@ For more information
 - https://aiml.com/what-are-sequence-models-key-algorithms-and-their-applications/
 - https://aiml.com/compare-the-different-sequence-models-rnn-lstm-gru-and-transformers/
 
+## 3. LLMs
+Large Language Models largely represent a class of deep learning architetures called transformer networks, which is a neural network that learns context and meaning by tracking relationships in sequential data, like words in a sentence.
+
+LLMs are artificial intelligence models that use Machine Learning to understand and generate human language. They are trained on massive amounts of text to learn statistical relationships and perform natural langauge processing tasks.
+
+A transformer is made up of multiple transformer blocks also known as layers. For example, a transformer has self-attention layers, feed-forward layers and normalisation layers, all working together to decipher input to predict streams of output at inference. The layers can be stacked to make deeper transformers and poweful language models. Transformers were first introduced by Google in 2017 paper [Attention Is All You Need](https://arxiv.org/abs/1706.03762).
 
 
 
