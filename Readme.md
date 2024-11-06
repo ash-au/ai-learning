@@ -1,10 +1,11 @@
 # AI Learning with focus on Gen AI
-This document attempts to create a curated list of article, blogs, coursed to go through to learn Gen AI. I will attempt to 
 
-## 1. Learn about attention mechanism
+This document attempts to create a curated list of article, blogs, coursed to go through to learn Gen AI.
+
+## 1. Attention Mechanism
+
 An Attention Mechanism is a machine learning technique that allows models to focus on relevant part of input data to improve performance. It work by assigning weights to different elements of data, based on how relevant they are to the task at hand.
 Attention mechanism are particularly useful in tasks that require context, such as Machine tranlation, Text summarization, Question answering, and Image Recognition.
-
 
 1. Break down the input: The model breaks down the input into smaller pieces, such as indvidual words.
 2. Pick out important bits: The model compares each piece to a query or question to determine which pieces are most important
@@ -16,10 +17,11 @@ Attention mechanisms are inspired by how humans focus on specific aspects of the
 
 Here are a few good articles to learn about Attention Mechanism
 
-- https://h2o.ai/wiki/attention-mechanism/
-- https://machinelearningmastery.com/the-attention-mechanism-from-scratch/
+- [H2O Attention Mechanism](https://h2o.ai/wiki/attention-mechanism/)
+- [Machine Learning Mastery Attention Mechanism](https://machinelearningmastery.com/the-attention-mechanism-from-scratch/)
 
 ## 2. Transformers vs RNNs vs LSTM/GRU
+
 Language Processing (NLP) has become synonymous with Large Language Models (LLMs) and Generative AI. These are built using Sequence Models, which is class of Machine Learning models designed for tasks that involve sequential data, where the order of elements in the input is important. Natural 
 Key sequence models are
 
@@ -30,15 +32,13 @@ Key sequence models are
 
 For more information
 
-- https://aiml.com/what-are-sequence-models-key-algorithms-and-their-applications/
-- https://aiml.com/compare-the-different-sequence-models-rnn-lstm-gru-and-transformers/
+- [What are Sequence Models](https://aiml.com/what-are-sequence-models-key-algorithms-and-their-applications/)
+- [Compare different Sequence Models](https://aiml.com/compare-the-different-sequence-models-rnn-lstm-gru-and-transformers/)
 
 ## 3. LLMs
+
 Large Language Models largely represent a class of deep learning architetures called transformer networks, which is a neural network that learns context and meaning by tracking relationships in sequential data, like words in a sentence.
 
 LLMs are artificial intelligence models that use Machine Learning to understand and generate human language. They are trained on massive amounts of text to learn statistical relationships and perform natural langauge processing tasks.
 
 A transformer is made up of multiple transformer blocks also known as layers. For example, a transformer has self-attention layers, feed-forward layers and normalisation layers, all working together to decipher input to predict streams of output at inference. The layers can be stacked to make deeper transformers and poweful language models. Transformers were first introduced by Google in 2017 paper [Attention Is All You Need](https://arxiv.org/abs/1706.03762).
-
-
-
